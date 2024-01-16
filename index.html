@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Dark Theme</title>
+
+</head>
+<body>
+ <!-- ========================= MENU ========================= -->
+  <header>
+    <div class="logo">
+      <div class="menu-btn">
+        <i class="fa fa-bars fa-2x" onclick="menuShow(); action()"></i>
+      </div>
+
+      <img src="./img/logo.png" onclick="window.location.href='./index.html'">
+    </div>
+
+    <ul id="btnsMenu">
+      <li>
+        <a href="" class="btnMenu" onclick="menuShow(); action()"> Link01 </a>
+      </li>
+
+      <li>
+        <div id="dropdown" class="dropdown">
+          <span> <a class="btnMenu"> Link02 </a>  </span>
+          <div class="dropdown-content">
+            <p> <a href="" onclick="menuShow(); action()"> Link02 - 1 </a> </p>
+            <p> <a href="" onclick="menuShow(); action()"> Link02 - 2 </a> </p>
+            <p> <a href="" onclick="menuShow(); action()"> Link02 - 3 </a> </p>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <a href="" class="btnMenu" onclick="menuShow(); action()"> Link03 </a>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </li>
+    </ul>
+  </header>
+ <!-- ======================= FIM MENU ======================= -->
+
+
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>
