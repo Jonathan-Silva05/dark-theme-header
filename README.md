@@ -17,4 +17,3 @@ Dark Theme Header developed with HTML5, CSS3 and JavaScript.
 - The project has a responsive menu, but it does not have content;
 - It has the *JS function. FIXED SCREEN* activated when opening the menu, to prevent the user from scrolling the screen while the menu is open
 - It also has the *JS function. CONFIGURE THEME*, activated by *checkbox*;
-
